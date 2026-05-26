@@ -34,14 +34,6 @@ export default defineConfig(() => {
             rollupOptions: {
                 input: {
                     main: 'index.html',
-                    services: 'services.html',
-                    service: 'services-entry.html',
-                    publications: 'publications.html',
-                    publication: 'publications-entry.html',
-                    contact: 'contact.html',
-                    teams: 'team.html',
-                    team: 'team-entry.html',
-                    about: 'about_us.html',
                 },
             },
         },
